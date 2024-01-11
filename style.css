@@ -1,0 +1,385 @@
+a {
+    text-decoration: none !important;
+    color: #16AD5B;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+}
+
+.container-lg {
+    width: 100%;
+    max-width: 100px;
+    padding: 0 !important;
+}
+
+.Rectangle-5348 {
+    height: 100%;
+    max-height: 1500px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/ 
+header#header {
+    width: 100%;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+/* underline */
+.navbar .navbar-nav .nav-link{
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #16AD5B;
+}
+
+.navbar .navbar-nav .nav-items{
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: green;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+  }
+
+@media only screen and (min-width: 992px){
+    .navbar{
+        padding: 0;
+    }
+    .navbar .navbar-brand{
+        padding: 0 0.7rem;
+    }
+    .navbar .navbar-nav .nav-link{
+        padding: 1em 0;
+    } 
+    .navbar .navbar-nav .nav-items{
+        margin: 0 1em;
+    }
+}
+
+/*text 1*/
+a.choose {
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a.choose-1 {
+    color: var(--Secondary, #243648);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Bộ lọc*/
+.Bo-loc {
+    color: #505050;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: 0.32px;
+    /* box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4); */
+}
+
+.p1 {
+    padding-top: 1.5px;
+    padding-left: 5px;
+}
+
+/*Bộ tìm kiếm*/
+.Bo-tim-kiem {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 2000px;
+    border-radius: 12px;
+    background: #fafafa;
+    padding-left: 30px;
+}
+
+p.p2 {
+    color: var(--Secondary, #243648);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+a.loc {
+    color: #16AD5B;
+    font-size: 16px;
+    padding-left: 100px;
+}
+
+.tab {
+    padding-top: 20px;
+}
+
+.form-check {
+    padding-top: 10px;
+}
+
+/*list-book*/
+.Group-239282 {
+    width: 233px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.view {
+    width: 100%;
+    max-width: 210px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.book-type {
+    width: 100%;
+    max-width: 210px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.level {
+    display: flex;
+    justify-content: flex-end   ;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.book-type {
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+a.book {
+    color: black;
+}
+
+a.book:hover {
+    color: #16AD5B;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-3 {
+    color: var(--Disnable, #999);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a.page-link {
+    color: black;
+}
+
+.Group-57286 {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+}
+
+.control {
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+#footer {
+    width: 100%;
+    height: 519.488px;
+    flex-shrink: 0;
+    background: #243648;
+    margin-top: 50px;
+}
+
+
+
+
+/*Footer*/
+.container-text-end {
+    height: 100%;
+    max-width: 1000px;
+    border-bottom: 1px solid #c6c6c66a;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+/*Hỗ trợ kỹ thuật*/
+.support {
+    width: 254.252px;
+    height: 101.82px;
+    flex-shrink: 0;
+    padding-top: 15px;
+}
+
+.Group-20891 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--Font-white, #fafafa);
+    list-style: none;
+    display: contents;
+}
+
+.phone-number {
+    color: var(--Primary, #16AD5B);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.email {
+    color: var(--Primary, #16AD5B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footer-img {
+    padding-top: 30px;
+}
+
+/*Tài liệu*/
+p.footer-title {
+    width: 150px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fafafa;
+}
+
+.Group-20888 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: contents;
+    list-style-type: none;
+}
+
+/* Điều khoản sử dụng */
+.List-doc {
+    width: 167.172px;
+}
+
+.Group-33916 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: contents;
+    list-style: none;
+}
+
+/*Hỗ trợ*/
+.Group-20889 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: contents;
+    list-style: none;
+}
+
+/*eNetViet*/
+p.footer-title-end {
+    width: 410.418px;
+    height: 80.979px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 0;
+}
+
+.eNetViet {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fafafa;
+}
+
+button.btn-download {
+    width: 347px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #fff;
+}
+
+p.connect {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fafafa;
+}
+
+.No-copyright {
+    width: 100%;
+    height: 32px;
+    border-top: 1px solid #c6c6c66a;
+    flex-wrap: nowrap;
+}
+
+.book-type {
+    max-width: fit-content;
+}
+
