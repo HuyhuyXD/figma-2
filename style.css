@@ -346,13 +346,14 @@ p.footer-title-end {
 }
 
 .eNetViet {
-    padding-top: 10px;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     color: #fafafa;
+    padding-top: 10px;
 }
+
 
 button.btn-download {
     width: 347px;
